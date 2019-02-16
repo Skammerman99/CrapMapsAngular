@@ -1,27 +1,27 @@
 import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
 import {MainComponent} from './main/main.component';
-import {MapComponent} from './map/map.component';
+import {MapContainerComponent} from "./map-container/map-container.component";
 
 const routes: Routes = [
-    {
-        path: 'main',
-        component: MainComponent
-    },
-    {
-        path: 'map',
-        component: MapComponent
-    },
-    {
-        path: '',
-        redirectTo: 'main',
-        pathMatch: 'full'
-    },
+  {
+    path: 'main',
+    component: MainComponent
+  },
+  {
+    path: 'map',
+    component: MapContainerComponent
+  },
+  {
+    path: '',
+    redirectTo: 'main',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {
 }

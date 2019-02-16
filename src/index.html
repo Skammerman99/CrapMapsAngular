@@ -1,20 +1,6 @@
 <!doctype html>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgpt-76yJrnr5zRwQMDEXfOIIquveJzFo&callback=initMap"
         async defer></script><html lang="en">
-<script>var config = {
-  apiKey: "AIzaSyAu3t1RP8eCeDyLex1nUnOgLuxevRLC1Xc",
-  authDomain: "crapmapsfb.firebaseapp.com",
-  databaseURL: "https://crapmapsfb.firebaseio.com",
-  projectId: "crapmapsfb",
-  storageBucket: "crapmapsfb.appspot.com",
-  messagingSenderId: "181590936130"
-};
-firebase.initializeApp(config);
-var database = firebase.database;
-firebase.database().ref('mapAPIKey').once('value').then(function(snapshot) {
-  export const mapAPIKey=snapshot.val();
-});
-</script>
 
 <head>
   <meta charset="utf-8">

@@ -6,9 +6,10 @@ import {Component, OnInit, ViewChild} from '@angular/core';
     styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit {
-    latitude = -28.68352;
-    longitude = -147.20785;
+    latitude = 33.6405;
+    longitude = -117.838;
     mapType = 'satellite';
+    zoom = 13;
 
     constructor() {
     }

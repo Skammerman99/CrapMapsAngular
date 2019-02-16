@@ -17,7 +17,7 @@ import { MapComponent } from './map/map.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'YOUR GOOGLE MAPS API KEY'
+      apiKey: 'AIzaSyCgpt-76yJrnr5zRwQMDEXfOIIquveJzFo'
     })
   ],
   providers: [],

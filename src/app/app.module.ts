@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { MapComponent } from './map/map.component';
 
+import mapAPIKey from 'src/index';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,7 @@ import { MapComponent } from './map/map.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDJB1TbfJWnHpL374AocwOSuCKiEFbhFGc'
+      apiKey: mapAPIKey
     })
   ],
   providers: [],

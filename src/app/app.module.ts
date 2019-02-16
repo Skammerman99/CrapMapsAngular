@@ -17,7 +17,7 @@ import { MapComponent } from './map/map.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCgpt-76yJrnr5zRwQMDEXfOIIquveJzFo'
+      apiKey: 'AIzaSyDJB1TbfJWnHpL374AocwOSuCKiEFbhFGc'
     })
   ],
   providers: [],

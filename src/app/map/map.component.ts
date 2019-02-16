@@ -9,7 +9,7 @@ export class MapComponent implements OnInit {
     latitude = 33.6405;
     longitude = -117.838;
     mapType = 'satellite';
-    zoom = 13;
+    zoom = 18;
 
     constructor() {
     }

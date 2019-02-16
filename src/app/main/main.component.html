@@ -1,3 +1,20 @@
 <p>
   main works!
 </p>
+<script>var config = {
+  apiKey: "AIzaSyAu3t1RP8eCeDyLex1nUnOgLuxevRLC1Xc",
+  authDomain: "crapmapsfb.firebaseapp.com",
+  databaseURL: "https://crapmapsfb.firebaseio.com",
+  projectId: "crapmapsfb",
+  storageBucket: "crapmapsfb.appspot.com",
+  messagingSenderId: "181590936130"
+};
+firebase.initializeApp(config);
+var database = firebase.database;
+firebase.database().ref('mapAPIKey').once('value').then(function(snapshot) {
+  console.log(snapshot.val())
+});
+
+
+</script>
+
